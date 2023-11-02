@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './styles.css'; 
-const Navbar = () => {
+
+const NavBar = () => {
   return (
     <div className="container">
-      <h2 className="heading">"PetPal: Your Furry Friend Database"</h2>
+      <h2 className="heading"></h2>
       <nav className="navigation">
         <ul>
           <li>
@@ -20,11 +21,12 @@ const Navbar = () => {
             <Link to="/contact">Contact Us</Link>
           </li>
           <ul>
-
+        
         </ul>
         </ul>
       </nav>
     </div>
   );
 };
-export default Navbar;
+
+export default NavBar;

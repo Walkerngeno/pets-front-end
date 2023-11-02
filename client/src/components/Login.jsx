@@ -21,7 +21,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.get('https://pets-backend-nlog.onrender.com/users');
+      const response = await axios.get('/users');
       const users = response.data.users;
 
       const user = users.find(u => u.email === formData.email && u.password === formData.password);
