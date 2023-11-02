@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './services.css'; // Import the CSS file
+import './Services.css'; // Import the CSS file
 
 function Services() {
   const [selectedService, setSelectedService] = useState('');

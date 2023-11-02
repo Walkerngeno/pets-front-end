@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import './vet.css';
-import NavBar from '../components/NavBar';
+import NavBar from './Navbar';
 
 
 function Veterinary() {

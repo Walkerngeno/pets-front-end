@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './styles.css'; 
-const NavBar = () => {
+const Navbar = () => {
   return (
     <div className="container">
-      <h2 className="heading"></h2>
+      <h2 className="heading">"PetPal: Your Furry Friend Database"</h2>
       <nav className="navigation">
         <ul>
           <li>
@@ -27,4 +27,4 @@ const NavBar = () => {
     </div>
   );
 };
-export default NavBar;
+export default Navbar;
