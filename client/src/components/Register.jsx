@@ -30,7 +30,7 @@ const Register = () => {
     }
 
     try {
-      const response = await axios.post('/users', {
+      const response = await axios.post('https://petdatabase.onrender.com/users', {
         username: formData.username,
         email: formData.email,
         password: formData.password,
